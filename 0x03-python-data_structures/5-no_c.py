@@ -4,11 +4,4 @@ def no_c(my_string):
     for c in my_string:
         if c != 'c' and c != 'C':
             new_string += c
-            
-        else:
-            new_string +=  " "
     return new_string
-        
-my_string = 'chinccccCCCagodscc'
-
-print(no_c(my_string))
